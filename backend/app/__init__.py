@@ -1,0 +1,1 @@
+"""StockPilot API application package."""
