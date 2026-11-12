@@ -25,6 +25,9 @@ target-version = "py312"
 asyncio_mode = "auto"
 testpaths = ["tests"]
 asyncio_default_fixture_loop_scope = "function"
+markers = [
+    "integration: tests requiring external services such as PostgreSQL",
+]
 
 [build-system]
 requires = ["hatchling"]

@@ -20,7 +20,7 @@ class Settings(BaseSettings):
     api_v1_prefix: str = "/api/v1"
 
     database_url: str = (
-        "postgresql+asyncpg://stockpilot:stockpilot@localhost:5432/stockpilot"
+        "postgresql+asyncpg://stockpilot:stockpilot@localhost:5444/stockpilot"
     )
 
 
